@@ -109,28 +109,24 @@ h1 {
 .media-item video {
   display: block;
   width: 100%;
-  height: clamp(18rem, 34vw, 28rem);
-  object-fit: cover;
-  background: #dfe5eb;
-}
-
-.media-item-contain img,
-.media-item-contain video {
   height: auto;
-  max-height: 34rem;
   object-fit: contain;
   background: var(--surface);
 }
 
-.media-item-wide img,
-.media-item-wide video {
-  height: auto;
-  aspect-ratio: 16 / 9;
+.media-item-portrait img {
+  max-height: 34rem;
+  object-fit: contain;
+}
+
+.media-item-large img,
+.media-item-large video {
+  max-height: none;
 }
 
 .media-item-video video {
-  height: auto;
-  aspect-ratio: 16 / 9;
+  min-height: 22rem;
+  background: #000000;
 }
 
 figcaption a {
