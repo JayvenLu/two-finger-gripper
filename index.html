@@ -10,7 +10,6 @@
   <meta property="og:image" content="assets/images/two-finger-gripper.jpg">
   <title>Two-Finger Gripper | Xiaofan Lu</title>
   <link rel="stylesheet" href="assets/css/style.css">
-  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.3.1/model-viewer.min.js"></script>
 </head>
 <body>
   <main class="page">
@@ -54,29 +53,17 @@
       <div class="section-heading">
         <p class="eyebrow">Open hardware</p>
         <h2 id="cad-title">Open-source CAD</h2>
-        <p>Explore the assembly in the browser, then use the STEP source file for manufacturing, inspection, and design modification.</p>
+        <p>Download the editable STEP source file for manufacturing, inspection, and design modification.</p>
       </div>
 
       <div class="cad-grid cad-grid-single">
-        <article class="cad-card">
-          <model-viewer
-            src="assets/CAD/previews/2finger_gripper.glb"
-            alt="Interactive 3D preview of the complete two-finger gripper"
-            camera-controls
-            auto-rotate
-            auto-rotate-delay="1500"
-            interaction-prompt="auto"
-            loading="lazy"
-            shadow-intensity="0.8"
-            tone-mapping="neutral">
-          </model-viewer>
-          <div class="cad-card-body">
-            <div>
-              <h3>Complete gripper</h3>
-              <p>STEP source · 13.53 MB</p>
-            </div>
-            <a class="download-link" href="assets/CAD/2finger_gripper.STEP" download>Download STEP</a>
+        <article class="cad-download-card">
+          <div class="cad-file-type" aria-hidden="true">STEP</div>
+          <div class="cad-download-copy">
+            <h3>Complete gripper</h3>
+            <p>2finger_gripper.STEP · 13.53 MB</p>
           </div>
+          <a class="download-link" href="assets/CAD/2finger_gripper.STEP" download>Download STEP</a>
         </article>
       </div>
 
